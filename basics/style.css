@@ -1,0 +1,77 @@
+* {
+    background-color: black;
+}
+
+.airship {
+    height: 200px;
+    width: 200px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#circles {
+    display: flex;
+    gap: 10px;
+    z-index: 20px;
+}
+
+.circle {
+    background-color: #e2d2d9;
+}
+
+/* .circle:nth-child(1) {
+    background-color: lightblue;
+}
+
+.circle:nth-child(2) {
+    background-color: rgb(239, 199, 100);
+}
+
+.circle:nth-child(3) {
+    background-color: rgb(239, 165, 100);
+}
+
+.circle:nth-child(4) {
+    background-color: rgb(100, 239, 153);
+}
+
+.circle:nth-child(5) {
+    background-color: rgb(239, 100, 130);
+}
+
+.circle:nth-child(6) {
+    background-color: rgb(78, 69, 71);
+}
+
+.circle:nth-child(7) {
+    background-color: rgb(239, 100, 130);
+}
+
+.circle:nth-child(8) {
+    background-color: rgb(125, 239, 100);
+}
+
+.circle:nth-child(9) {
+    background-color: rgb(237, 239, 100);
+}
+
+.circle:nth-child(10) {
+    background-color: rgb(239, 100, 130);
+}
+.circle:nth-child(11) {
+    background-color: rgb(86, 165, 21);
+}
+.circle:nth-child(12) {
+    background-color: rgb(239, 100, 130);
+} */
+
+.planet {
+    position: absolute;
+    top: 180px;
+    left: 1200px;
+    /* visibility: hidden; */
+}
