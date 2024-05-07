@@ -1,0 +1,11 @@
+
+
+#test {
+    display: flex;
+    gap: 300px;
+}
+
+#lander, #planet {
+    height: 200px;
+    width: 200px;
+}

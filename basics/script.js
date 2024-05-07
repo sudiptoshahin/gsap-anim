@@ -30,9 +30,9 @@ gsap.to(myObject, { duration: 20, rotation: 360, onUpdate: function(){
     console.log(myObject.rotation);
 } });
 
-gsap.from('.planet', {duration: 5, opacity: 0, scale: 0.5});
+// gsap.from('.planet', {duration: 5, opacity: 0, scale: 0.5});
 // gsap.from('.circle', {duration: 5, opacity: 0, scale: 0.1});
-gsap.from('.circle', {duration: 10, opacity: 0, y: () => Math.random() * 1, scale: 0.3, stagger: 0.25});
+// gsap.from('.circle', {duration: 10, opacity: 0, y: () => Math.random() * 1, scale: 0.3, stagger: 0.25});
 
 // gsap.to('.circle', {rotation: 360, x: 10, yPercent: 50});
 
@@ -66,3 +66,18 @@ gsap.from('.star', {
     repeat: 3,
     ease: "power1.out"  
 });
+
+// document,querySelector('#pause').onclick = () => tween.pause();
+
+// document.querySelector('#seek').onclick = () => {
+//     tween.seek(2);
+//     sequenceUpdateDragger();
+// };
+
+var tl = gsap.timeline();
+// gsap.from('.planet', {duration: 5, opacity: 0, scale: 0.5});
+// gsap.from('.circle', {duration: 5, opacity: 0, scale: 0.1});
+// gsap.from('.circle', {duration: 10, opacity: 0, y: () => Math.random() * 1, scale: 0.3, stagger: 0.25});
+
+tl.from('.planet', {duration: 5, opacity: 0, scale: 0.5});
+tl.from('.circle', {duration: 10, opacity: 0, y: () => Math.random() * 1, scale: 0.3, stagger: 0.25});

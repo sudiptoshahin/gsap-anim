@@ -102,3 +102,15 @@
 .stars > img:nth-child(1) {
     margin-left: 200px;   
 }
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.buttons > button {
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
